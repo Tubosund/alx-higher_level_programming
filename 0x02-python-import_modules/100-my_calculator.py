@@ -1,5 +1,4 @@
-#!/usr/bin/python3
-
+#!/usr/bin/pythom3
 import sys
 from calculator_1 import add, subtract, multiply, divide
 
