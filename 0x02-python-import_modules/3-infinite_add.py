@@ -1,9 +1,14 @@
 #!/usr/bin/python3
 
 if __name__ == "__main__":
-    import sys
-    total = 0
-    for i in range(len(sys.argv) - 1):
-        total += int(sys.argv[i + 1])
-    print("{}".format(total))
 
+    import sys
+
+    count = 0
+    args = sys.argv
+
+    if len(args) > 1:
+        for arg in sys.argv[1:]:
+            count += int(arg)
+
+    print(count)
