@@ -1,4 +1,8 @@
-#!/usr/bin/python3
+#!/usr/bin/pythoni3
+
+"""Define a class Square."""
+
+
 
 class Square:
     """Represent a square."""
